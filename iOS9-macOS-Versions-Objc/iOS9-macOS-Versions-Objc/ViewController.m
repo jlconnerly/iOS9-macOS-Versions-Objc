@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIVersion.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,26 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    // (SWIFT) let name: String = "Jake Connerly"
+    NSString *name = @"Jake Connerly";
+    
+    // (SWIFT) print("Hi my name is \(name)")
+    NSLog(@"Hi my name is %@ there are %lu charactors in my name", name, name.length);
+    
+    float pi = 3.14;
+    double distance = 5590;
+    int count = 27;
+    
+    NSLog(@"\n\npi: %0.2f\ndistance: %f\ncount: %i\n\n", pi, distance, count);
+    
+    // 1. Get the space (Buying the land)
+    // 2. Init the object (Building the house)
+    
+    LSIVersion *version = [[LSIVersion alloc] initWithName:@"Catalina"
+                                               releaseDate:@"October 7th, 2019"];
+    
+    NSLog(@"\nVersion: %@\nReleaseDate: %@", version.name, version.releaseDate);
 }
 
 
