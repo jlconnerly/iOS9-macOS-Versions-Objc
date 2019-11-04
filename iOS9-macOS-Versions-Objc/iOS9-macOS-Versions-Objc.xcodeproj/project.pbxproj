@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		32533F3D237099FA0063B3B8 /* LSIVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32533F3C237099FA0063B3B8 /* LSIVersion.m */; };
 		32533F452370A2C60063B3B8 /* LSIVersionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32533F442370A2C60063B3B8 /* LSIVersionController.m */; };
+		32533F482370A4610063B3B8 /* LSIVersionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32533F472370A4610063B3B8 /* LSIVersionsTableViewController.m */; };
 		BD4825BB2370927F00FC12E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4825BA2370927F00FC12E9 /* AppDelegate.m */; };
 		BD4825BE2370927F00FC12E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4825BD2370927F00FC12E9 /* SceneDelegate.m */; };
 		BD4825C12370927F00FC12E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4825C02370927F00FC12E9 /* ViewController.m */; };
@@ -23,6 +24,8 @@
 		32533F3C237099FA0063B3B8 /* LSIVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersion.m; sourceTree = "<group>"; };
 		32533F432370A2C60063B3B8 /* LSIVersionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionController.h; sourceTree = "<group>"; };
 		32533F442370A2C60063B3B8 /* LSIVersionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionController.m; sourceTree = "<group>"; };
+		32533F462370A4610063B3B8 /* LSIVersionsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIVersionsTableViewController.h; sourceTree = "<group>"; };
+		32533F472370A4610063B3B8 /* LSIVersionsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIVersionsTableViewController.m; sourceTree = "<group>"; };
 		BD4825B62370927F00FC12E9 /* iOS9-macOS-Versions-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS9-macOS-Versions-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4825B92370927F00FC12E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD4825BA2370927F00FC12E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				32533F3C237099FA0063B3B8 /* LSIVersion.m */,
 				32533F432370A2C60063B3B8 /* LSIVersionController.h */,
 				32533F442370A2C60063B3B8 /* LSIVersionController.m */,
+				32533F462370A4610063B3B8 /* LSIVersionsTableViewController.h */,
+				32533F472370A4610063B3B8 /* LSIVersionsTableViewController.m */,
 				BD4825C22370927F00FC12E9 /* Main.storyboard */,
 				BD4825C52370928100FC12E9 /* Assets.xcassets */,
 				BD4825C72370928100FC12E9 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32533F482370A4610063B3B8 /* LSIVersionsTableViewController.m in Sources */,
 				32533F3D237099FA0063B3B8 /* LSIVersion.m in Sources */,
 				BD4825C12370927F00FC12E9 /* ViewController.m in Sources */,
 				BD4825BB2370927F00FC12E9 /* AppDelegate.m in Sources */,
